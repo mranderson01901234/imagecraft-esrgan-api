@@ -1,0 +1,13 @@
+{
+  "imageName": "runpod-internal/build-from-github",
+  "containerDiskInGb": 5,
+  "volumeInGb": 0,
+  "containerStartCommand": "python app.py",
+  "httpPorts": [
+    {
+      "port": 5000,
+      "name": "flask"
+    }
+  ]
+}
+ 
